@@ -7,7 +7,7 @@ import axios from "axios"
 ///-----------------
 export const getRecipes = ()=>{
     return async function(dispatch){
-       const recipeData = await axios.get("http://localhost:3001/recipes/")
+       const recipeData = await axios.get("/recipes/")
        const recipes = recipeData.data
 
       dispatch({type: GET_RECIPES, payload: recipes})
@@ -22,7 +22,7 @@ export const searchRecipes = (name)=>{
     }
 
     try {
-      const { data } = await axios.get(`http://localhost:3001/recipes/?name=${name}`);
+      const { data } = await axios.get(`/recipes/?name=${name}`);
       if(data.length === 0) throw Error("no hay recetas con ese nombre")
       dispatch({ type: SEARCH_RECIPES, payload: data });
     } catch (error) {
@@ -70,7 +70,7 @@ export const postRecipe = (form, errors)=>{
     }
 
     try {
-      const postResponse = await axios.post("http://localhost:3001/recipes", form)
+      const postResponse = await axios.post("/recipes", form)
       alert("La Receta fue creada con exito")
       dispatch({ type: POST_RECIPE, payload: postResponse });
     } catch (error) {
@@ -85,7 +85,7 @@ export const postRecipe = (form, errors)=>{
 export const deleteRecipe = (id)=>{
   return async function(dispatch){
     try {
-      const borrado = await axios.delete(`http://localhost:3001/recipes/${id}`)
+      const borrado = await axios.delete(`/recipes/${id}`)
       dispatch({type: DELETE_RECIPE, payload: borrado})
       
     } catch (error) {
