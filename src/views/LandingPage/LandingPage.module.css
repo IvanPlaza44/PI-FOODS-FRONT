@@ -1,0 +1,44 @@
+.fondo{
+    display: grid;
+    place-content: center;
+    background-image: url("../../Images/Landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.texto{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    color: black;
+    text-shadow: 5px 6px 6px white;
+}
+.linkContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    background-color: rgb(238, 237, 236, 0.67);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border: 5px solid rgb(4, 48, 59);
+    border-radius: 15px;
+    height: 30px;
+    font-size: 23px;
+    text-shadow: 4px 3px 5px black;
+    width: 270px;
+}
+
+.link:hover{
+    background-color: rgb(4, 105, 4, 0.3);
+    color: bisque;
+    scale: calc(1.2);
+    transition: 0.4s ease;
+}

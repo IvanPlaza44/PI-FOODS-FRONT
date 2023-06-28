@@ -1,0 +1,57 @@
+.container{
+    background-image: url("../../Images/Form.jpg");
+    opacity: 0.9  ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 250px;
+    height: 100%;
+    box-shadow: 15px 15px 10px black;
+    border-radius: 15px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.diets{
+    display: flex;
+    gap: 20px;
+    color: rgb(3, 255, 3);
+    list-style: none;
+}
+
+.boxInput{
+    width: 600px;
+    margin-top: 3px;
+    margin-bottom: 35px;
+    margin-left: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxInput:hover{
+    background-color: rgb(4, 105, 4, 0.3);
+    color: bisque;
+    scale: calc(1.1);
+    transition: 0.4s ease;
+}
+
+.btnContainer{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    
+}
+
+.btn{
+    border-radius: 7px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rgba(8, 228, 8, 0.623);
+    scale: calc(1.2);
+}

@@ -1,0 +1,13 @@
+.container{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.boxSelect{
+    border-radius: 10px;
+    border-color: beige;
+    height: 25px;
+    background-color: rgba(0, 87, 138, 0.767);
+    margin-left: 5px;
+    color: white;
+}

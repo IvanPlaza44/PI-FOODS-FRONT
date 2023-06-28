@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    height: 400%;
+    justify-content: space-around;
+}
+.description{
+    background-color: rgb(199, 195, 195);
+    width: 50%;
+    height: 100%px;
+    font-size: 7px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    border: 10px solid rgb(13, 85, 44);
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.imageDetail{
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    border: 10px solid rgba(6, 209, 245, 0.541);
+}
+
+.imageDetail:hover{
+    scale: calc(1.2);
+    transition: 0.4s ease;
+    cursor: pointer;
+
+}
+.title{
+    color: rgb(19, 17, 17);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Courgette', cursive;
+    margin-bottom: 0;
+    margin-top: 0;
+}

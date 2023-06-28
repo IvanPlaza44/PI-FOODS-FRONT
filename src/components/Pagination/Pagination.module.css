@@ -1,0 +1,30 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: 5px;
+  }
+  
+  .btn {
+    background-color: rgba(0, 87, 138, 0.767);
+    color: white;
+    border-radius: 7px;
+    font-family: 'Courgette', cursive;
+    margin-left: 2px;
+    font-size: 20px;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 0, 0, 0.562);
+  }
+
+  .btnCurrent{
+    background-color: rgba(51, 255, 0, 0.664);
+    color: white;
+    border-radius: 7px;
+    font-family: 'Courgette', cursive;
+    margin-left: 2px;
+    font-size: 20px;
+  }
+  
