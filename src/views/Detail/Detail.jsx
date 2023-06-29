@@ -11,7 +11,7 @@ const Detail =()=>{
 
 
     useEffect(()=>{
-        axios.get(`/recipes/${id}`)
+        axios.get(`http://localhost:3001/recipes/${id}`)
             .then(({data})=>{
                 if(data.name){
                     setRecipe(data)
