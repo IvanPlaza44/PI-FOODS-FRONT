@@ -11,7 +11,7 @@ const Detail =()=>{
 
 
     useEffect(()=>{
-        axios.get(`http://localhost:3001/recipes/${id}`)
+        axios.get(`https://pi-foods-back-production-de11.up.railway.app/recipes/${id}`)
             .then(({data})=>{
                 if(data.name){
                     setRecipe(data)
