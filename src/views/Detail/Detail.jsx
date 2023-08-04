@@ -11,7 +11,7 @@ const Detail =()=>{
 
 
     useEffect(()=>{
-        axios.get(`https://pi-foods-back-production-de11.up.railway.app/recipes/${id}`)
+        axios.get(`https://pi-foods-back-ivanplaza44.vercel.app//recipes/${id}`)
             .then(({data})=>{
                 if(data.name){
                     setRecipe(data)

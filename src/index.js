@@ -25,7 +25,7 @@ import App from './App';
 
 // axios.defaults.baseURL = "http://localhost:3001"; // LOCAL SERVER 
 
-axios.defaults.baseURL = "https://pi-foods-back-production-de11.up.railway.app/" // SERVER DEPLOYED
+axios.defaults.baseURL = "https://pi-foods-back-ivanplaza44.vercel.app/" // SERVER DEPLOYED
 
 createRoot(document.getElementById('root')).render(
   <Provider store={store}>
