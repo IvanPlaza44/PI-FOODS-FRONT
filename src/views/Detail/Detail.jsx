@@ -11,7 +11,7 @@ const Detail =()=>{
 
 
     useEffect(()=>{
-        axios.get(`https://pi-foods-back.onrender.com/recipes/${id}`)
+        axios.get(`https://pi-foods-back-2ddj.onrender.com/recipes/${id}`)
             .then(({data})=>{
                 if(data.name){
                     setRecipe(data)
