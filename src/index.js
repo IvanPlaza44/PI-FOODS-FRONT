@@ -23,7 +23,7 @@ import store from './redux/store';
 import axios from 'axios';
 import App from './App';
 
-// axios.defaults.baseURL = "http://localhost:3001"; // LOCAL SERVER 
+//axios.defaults.baseURL = "http://localhost:3001"; // LOCAL SERVER 
 
 axios.defaults.baseURL = "https://pi-foods-back-2ddj.onrender.com" // SERVER DEPLOYED
 
